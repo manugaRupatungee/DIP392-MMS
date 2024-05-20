@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url('https://source.unsplash.com/random/1920x1080/?strategy,mind-game'); /*For random backfroud
+    */
+}
+
+#board {
+    height: 640px;
+    width: 730px;
+    background-color: rgba(0, 255, 42, 0.315);
+    border: 12px solid rgb(0, 128, 68);
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* #Restart{
+    display: block;
+    margin: 1 auto;
+    margin-top: 5px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gray;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-rem
+
+} */
+
+
+#Restart{
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family:   Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px auto;
+  margin-top: 1%;
+  
+
+}
+
+
+
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+.tile {
+    height: 75px;
+    width: 75px;
+    margin: 6px;
+
+    /* Circle */
+    background-color: white;
+    border-radius: 50%;
+    border: 6px solid navy;
+}
+
+.red-piece {
+    background-color: rgb(255, 0, 179);
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
